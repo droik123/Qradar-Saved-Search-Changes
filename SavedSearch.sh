@@ -19,7 +19,7 @@ mv /root/savedsearch.new /root/savedsearch.old
 ###  !!!!ALSO DELETE THE savedsearchdiff.out file manually else the script would throw an error
 
 #The below line will email you the output
-mail -s "Saved Search Difference" ashis.sahoo@paladion.net </root/savedsearchdiff.out
+mail -s "Saved Search Difference" yourmail@male.cim </root/savedsearchdiff.out
 
 #This will delete the output file so that the same filename can be used tomorrow
 rm -rf /root/savedsearchdiff.out
